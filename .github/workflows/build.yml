@@ -17,8 +17,6 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - uses: android-actions/setup-android@v3
-
       # Gradle is installed here, so no gradle-wrapper.jar / gradlew needs to be committed.
       - uses: gradle/actions/setup-gradle@v4
         with:
